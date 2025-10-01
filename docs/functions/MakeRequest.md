@@ -4,6 +4,9 @@ Ringkasan
 - `MakeRequest(url: string[, method: string][, headers: table][, content: string][, timeout_ms: int]) -> HttpResponse`
 - Melakukan permintaan HTTP dan mengembalikan `HttpResponse`.
 
+Penjelasan
+- Periksa `status` dan `error` pada hasil untuk memastikan request sukses sebelum memproses `content`.
+
 Parameter
 - `url: string`
 - `method: string (opsional)` — Default biasanya `GET`.
@@ -24,5 +27,4 @@ end
 ```
 
 Terkait
-- `HttpResponse`
-
+- [HttpResponse](../structures/HttpResponse.md)

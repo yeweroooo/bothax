@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Hasil permintaan HTTP dari `MakeRequest`.
 
+Penjelasan
+- Periksa `error` dan `status` untuk memastikan permintaan berhasil sebelum memproses `content`.
+
 Bidang
 - `status: int` — Kode status HTTP (200, 404, dst).
 - `error: boolean` — Apakah terjadi error.
@@ -18,5 +21,4 @@ end
 ```
 
 Terkait
-- `MakeRequest(url, method, headers, content, timeout)`
-
+- [MakeRequest](../functions/MakeRequest.md)

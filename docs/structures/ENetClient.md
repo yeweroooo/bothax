@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Informasi koneksi ENet ke server (alamat, port, ping).
 
+Penjelasan
+- Bermanfaat untuk memantau latency/ping saat ini dan alamat server yang terhubung.
+
 Bidang
 - `address: string` — Alamat server (IP/host).
 - `port: int` — Port server.
@@ -16,5 +19,4 @@ LogToConsole(('Terhubung ke %s:%d (ping %d ms)')
 ```
 
 Terkait
-- `GetClient()`
-
+- [GetClient](../functions/GetClient.md)

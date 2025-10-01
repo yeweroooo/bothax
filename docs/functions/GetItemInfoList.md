@@ -4,6 +4,9 @@ Ringkasan
 - `GetItemInfoList() -> ItemInfo[]`
 - Mengambil seluruh daftar item dari database item.
 
+Penjelasan
+- Daftar bisa sangat besar. Filter dengan kondisi agar lebih efisien.
+
 Nilai kembali
 - Array `ItemInfo`
 
@@ -17,5 +20,4 @@ end
 ```
 
 Terkait
-- `ItemInfo`
-
+- [ItemInfo](../structures/ItemInfo.md)

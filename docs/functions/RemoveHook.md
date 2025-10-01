@@ -4,6 +4,9 @@ Ringkasan
 - `RemoveHook(hook_id: int|string)`
 - Menghapus hook berdasarkan ID/label yang dipakai di `AddHook`.
 
+Penjelasan
+- Gunakan untuk menonaktifkan satu hook tertentu tanpa mempengaruhi hook lain.
+
 Parameter
 - `hook_id: int|string` — Sama dengan label yang diberikan saat `AddHook`.
 
@@ -19,6 +22,5 @@ RemoveHook('hai')
 ```
 
 Terkait
-- `AddHook(event, label, cb)`
-- `RemoveHooks()`
-
+- [AddHook](AddHook.md)
+- [RemoveHooks](RemoveHooks.md)

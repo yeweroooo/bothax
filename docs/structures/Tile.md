@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Informasi tile (blok) di dunia.
 
+Penjelasan
+- `fg` adalah blok depan, `bg` blok belakang. `flags` menyimpan kondisi khusus (mis. locked, public); `extra` berisi data tambahan bila ada.
+
 Bidang
 - `fg: int` — Foreground ID.
 - `bg: int` — Background ID.
@@ -26,8 +29,7 @@ end
 ```
 
 Terkait
-- `GetTile(x, y)`
-- `GetTiles()`
-- `TileFlags`
-- `TileExtra`
-
+- [GetTile](../functions/GetTile.md)
+- [GetTiles](../functions/GetTiles.md)
+- [TileFlags](../structures/TileFlags.md)
+- [TileExtra](../structures/TileExtra.md)

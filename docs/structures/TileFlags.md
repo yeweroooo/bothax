@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Flag/penanda kondisi khusus pada tile.
 
+Penjelasan
+- Representasi kondisi tile dalam bentuk boolean/bitmask. Ubah nilai flag dengan fungsi `SetTileFlags`.
+
 Bidang
 - `value: int` — Nilai bitmask keseluruhan.
 - `locked: boolean`
@@ -31,6 +34,5 @@ SetTileFlags(15, 8, {
 ```
 
 Terkait
-- `SetTileFlags(x, y, flags)`
-- `Tile`
-
+- [SetTileFlags](../functions/SetTileFlags.md)
+- [Tile](../structures/Tile.md)

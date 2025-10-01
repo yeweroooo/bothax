@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Informasi kamera dunia di klien.
 
+Penjelasan
+- Berguna untuk menempatkan overlay/UI (ImGui) atau fitur ESP pada posisi yang tepat.
+
 Bidang
 - `pos: Vec2` — Posisi kamera (pixel).
 - `center: Vec2` — Titik tengah tampilan.
@@ -17,5 +20,4 @@ LogToConsole(('Camera pos: %.1f, %.1f')
 ```
 
 Terkait
-- `GetCamera()`
-
+- [GetCamera](../functions/GetCamera.md)

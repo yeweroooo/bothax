@@ -4,6 +4,9 @@ Ringkasan
 - `GetWorld() -> World`
 - Mengambil info world yang sedang dimuat.
 
+Penjelasan
+- Gunakan untuk mengetahui nama world dan ukurannya, misalnya saat menampilkan overlay info.
+
 Nilai kembali
 - `World`
 
@@ -15,5 +18,4 @@ LogToConsole('world size : ' .. world.width .. ' x ' .. world.height)
 ```
 
 Terkait
-- `World`
-
+- [World](../structures/World.md)

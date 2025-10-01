@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Informasi dunia yang sedang dimuat.
 
+Penjelasan
+- Lebar x tinggi adalah ukuran world dalam tile. Nilai ini berubah saat Anda berpindah world.
+
 Bidang
 - `name: string` — Nama world.
 - `width: int` — Lebar (jumlah tile X).
@@ -18,5 +21,4 @@ LogToConsole(('World %s (%dx%d)'):format(w.name, w.width, w.height))
 ```
 
 Terkait
-- `GetWorld()`
-
+- [GetWorld](../functions/GetWorld.md)

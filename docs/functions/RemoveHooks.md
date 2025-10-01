@@ -4,6 +4,9 @@ Ringkasan
 - `RemoveHooks()`
 - Menghapus semua hook yang terdaftar.
 
+Penjelasan
+- Berguna untuk reset cepat saat pengembangan atau ketika ingin menonaktifkan semua event listener.
+
 Nilai kembali
 - Tidak ada.
 
@@ -15,6 +18,5 @@ RemoveHooks()
 ```
 
 Terkait
-- `RemoveHook(id)`
-- `AddHook(event, label, cb)`
-
+- [RemoveHook](RemoveHook.md)
+- [AddHook](AddHook.md)

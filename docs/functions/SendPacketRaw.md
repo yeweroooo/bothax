@@ -4,6 +4,9 @@ Ringkasan
 - `SendPacketRaw(to_client: boolean, packet: GameUpdatePacket)`
 - Mengirim paket raw ke klien (`true`) atau server (`false`).
 
+Penjelasan
+- Pastikan struktur `packet` sesuai dengan format `GameUpdatePacket`. Penggunaan yang salah dapat memicu disconnect.
+
 Parameter
 - `to_client: boolean` — `true` ke klien, `false` ke server.
 - `packet: GameUpdatePacket` — Data paket terstruktur.
@@ -18,5 +21,4 @@ SendPacketRaw(false, packet)
 ```
 
 Terkait
-- `GameUpdatePacket`
-
+- [GameUpdatePacket](../structures/GameUpdatePacket.md)

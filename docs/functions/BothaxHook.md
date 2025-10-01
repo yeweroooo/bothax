@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Kumpulan nama event yang bisa di-hook dengan `AddHook` untuk menangkap/periksa/override perilaku.
 
+Penjelasan
+- Pakai bersama `AddHook` untuk memasang listener. Kembalikan `true` dari callback bila ingin memblokir event tertentu.
+
 Daftar event & parameter callback
 - `OnVariant(var, netid, delay)` — Varian event teks/game (misal OnDialogRequest).
 - `OnSendPacket(type, packet)` — Packet teks sebelum terkirim.
@@ -23,6 +26,5 @@ end)
 ```
 
 Terkait
-- `AddHook(event, label, callback)`
-- `RemoveHook(id)` / `RemoveHooks()`
-
+- [AddHook](AddHook.md)
+- [RemoveHook](RemoveHook.md) / [RemoveHooks](RemoveHooks.md)

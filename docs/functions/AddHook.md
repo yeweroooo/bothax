@@ -4,6 +4,9 @@ Ringkasan
 - `AddHook(event: string, label: int|string, callback: function)`
 - Mendaftarkan callback untuk sebuah event BothaxHook.
 
+Penjelasan
+- Lengkapi `label` unik agar mudah dihapus dengan `RemoveHook`. Kembalikan `true` di callback untuk memblokir event tertentu.
+
 Parameter
 - `event: string` — Nama event, mis. `OnVariant`, `OnSendPacket`, dll.
 - `label: int|string` — Label/ID hook (dipakai untuk `RemoveHook`).
@@ -26,6 +29,5 @@ end)
 ```
 
 Terkait
-- `BothaxHook`
-- `RemoveHook(id)` / `RemoveHooks()`
-
+- [BothaxHook](BothaxHook.md)
+- [RemoveHook](RemoveHook.md) / [RemoveHooks](RemoveHooks.md)

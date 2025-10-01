@@ -4,6 +4,9 @@ Ringkasan
 - `GetObjectList() -> WorldObject[]`
 - Mengambil daftar objek dunia (drop, dll.) yang aktif.
 
+Penjelasan
+- Gunakan untuk fitur auto-pickup atau menampilkan posisi drop spesifik.
+
 Nilai kembali
 - Array `WorldObject`
 
@@ -18,5 +21,4 @@ end
 ```
 
 Terkait
-- `WorldObject`
-
+- [WorldObject](../structures/WorldObject.md)

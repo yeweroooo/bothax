@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Objek terjatuh/tersebar di dunia (drop, dll.).
 
+Penjelasan
+- `id` adalah item id dari objek yang jatuh; `amount` adalah jumlahnya. Posisi dalam pixel.
+
 Bidang
 - `id: int` — Item ID objek.
 - `pos: Vec2` — Posisi (pixel).
@@ -21,5 +24,4 @@ end
 ```
 
 Terkait
-- `GetObjectList()`
-
+- [GetObjectList](../functions/GetObjectList.md)

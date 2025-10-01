@@ -4,6 +4,9 @@ Ringkasan
 - `GetClient() -> ENetClient`
 - Mendapatkan info koneksi ENet saat ini.
 
+Penjelasan
+- Bantu diagnosa jaringan (alamat server dan ping) saat fitur Anda bergantung pada koneksi stabil.
+
 Nilai kembali
 - `ENetClient` — address, port, ping.
 
@@ -15,5 +18,4 @@ LogToConsole("Ping: " .. client.ping .. "ms")
 ```
 
 Terkait
-- `ENetClient`
-
+- [ENetClient](../structures/ENetClient.md)

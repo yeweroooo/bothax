@@ -4,6 +4,9 @@ Ringkasan
 - `LoadEncrypt(encryptedText: string)`
 - Menjalankan teks terenkripsi sebagai script Lua.
 
+Penjelasan
+- Pasangan dari `Encrypt`. Memungkinkan mengeksekusi script tanpa mengekspose isi asli.
+
 Parameter
 - `encryptedText: string` — String terenkripsi.
 
@@ -17,6 +20,5 @@ LoadEncrypt(script)
 ```
 
 Terkait
-- `Encrypt(text[, key])`
-- `LoadEncryptedFile(filename)`
-
+- [Encrypt](Encrypt.md)
+- [LoadEncryptedFile](LoadEncryptedFile.md)

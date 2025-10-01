@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Entri item di inventaris pemain.
 
+Penjelasan
+- Setiap entri mewakili 1 slot: `id` item dan `amount` jumlah item pada slot tersebut.
+
 Bidang
 - `id: int` — ID item.
 - `amount: int` — Jumlah/quantity.
@@ -16,5 +19,4 @@ end
 ```
 
 Terkait
-- `GetInventory()`
-
+- [GetInventory](../functions/GetInventory.md)

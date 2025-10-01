@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Data tambahan sebuah tile (label, owner, warna, progres, dsb.).
 
+Penjelasan
+- `extra` tidak selalu ada. Cek dulu `if t.extra then ... end` sebelum mengakses field-nya.
+
 Bidang
 - `type: int`
 - `progress: float`
@@ -28,5 +31,4 @@ end
 ```
 
 Terkait
-- `Tile`
-
+- [Tile](../structures/Tile.md)

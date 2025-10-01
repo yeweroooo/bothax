@@ -4,6 +4,9 @@ Ringkasan
 - `SetTileFlags(tileX: int, tileY: int, flags: int | TileFlags)`
 - Mengatur flag tile pada koordinat tertentu.
 
+Penjelasan
+- Bisa menggunakan bitmask `int` atau tabel `TileFlags`. Pastikan koordinat tile sesuai target yang diinginkan.
+
 Parameter
 - `tileX: int` — Koordinat X tile.
 - `tileY: int` — Koordinat Y tile.
@@ -26,6 +29,5 @@ SetTileFlags(15, 8, {
 ```
 
 Terkait
-- `TileFlags`
-- `GetTile(x, y)`
-
+- [TileFlags](../structures/TileFlags.md)
+- [GetTile](GetTile.md)

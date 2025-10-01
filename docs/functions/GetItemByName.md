@@ -4,6 +4,9 @@ Ringkasan
 - `GetItemByName(name: string) -> ItemInfo`
 - Mengambil data item berdasarkan nama.
 
+Penjelasan
+- Nama pencarian sensitif pada ejaan. Jika ingin pencarian bebas sebagian, gunakan `GetItemsByPartialName`.
+
 Parameter
 - `name: string` — Nama item.
 
@@ -16,6 +19,5 @@ LogToConsole(GetItemByName('Dirt').id)
 ```
 
 Terkait
-- `ItemInfo`
-- `GetItemInfo(id_or_name)`
-
+- [ItemInfo](../structures/ItemInfo.md)
+- [GetItemInfo](GetItemInfo.md)

@@ -4,6 +4,9 @@ Ringkasan
 - `GetPlayerItems() -> PlayerItems`
 - Alias dari `GetPlayerInfo()`.
 
+Penjelasan
+- Berisi `gems` dan informasi ransel. Sama dengan `GetPlayerInfo()`.
+
 Nilai kembali
 - `PlayerItems`
 
@@ -14,6 +17,5 @@ LogToConsole('Gems: ' .. p.gems)
 ```
 
 Terkait
-- `GetPlayerInfo()`
-- `PlayerItems`
-
+- [GetPlayerInfo](GetPlayerInfo.md)
+- [PlayerItems](../structures/PlayerItems.md)

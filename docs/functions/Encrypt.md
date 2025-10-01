@@ -4,6 +4,9 @@ Ringkasan
 - `Encrypt(text: string[, key: int]) -> string`
 - Mengenkripsi teks menjadi string terenkripsi.
 
+Penjelasan
+- Cocok untuk menyembunyikan isi script atau data sensitif sebelum dikirim/di-embed.
+
 Parameter
 - `text: string` — Teks yang akan dienkripsi.
 - `key: int (opsional)` — Kunci enkripsi.
@@ -21,6 +24,5 @@ LogToConsole(withKey)
 ```
 
 Terkait
-- `LoadEncrypt(encText)`
-- `EncryptFile(filename[, key])`
-
+- [LoadEncrypt](LoadEncrypt.md)
+- [EncryptFile](EncryptFile.md)

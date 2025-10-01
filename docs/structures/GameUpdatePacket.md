@@ -4,6 +4,9 @@ Deskripsi singkat
 - Struktur paket mentah yang digunakan untuk event/pengiriman paket level rendah.
 - Banyak bidang memiliki alias/nama alternatif tergantung konteks.
 
+Penjelasan
+- Gunakan dengan hati-hati. Pastikan field yang dipakai sesuai tipe event agar tidak menimbulkan perilaku tak terduga.
+
 Bidang (sesuai README)
 - `type: int`
 - `dropped: int`
@@ -29,5 +32,4 @@ SendPacketRaw(false, pkt)
 ```
 
 Terkait
-- `SendPacketRaw(to_client, packet)`
-
+- [SendPacketRaw](../functions/SendPacketRaw.md)

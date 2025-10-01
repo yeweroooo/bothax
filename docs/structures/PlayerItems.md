@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Data item terkait pemain: jumlah gems dan konfigurasi backpack.
 
+Penjelasan
+- Cocok untuk membaca saldo gems dan info ransel (ukuran, slot terpilih) tanpa perlu parsing paket manual.
+
 Bidang
 - `gems: int` — Saldo gems pemain.
 - `backpack: table` — Info ransel:
@@ -18,5 +21,5 @@ LogToConsole(('Gems: %d, Backpack size: %d')
 ```
 
 Terkait
-- `GetPlayerInfo()` / `GetPlayerItems()`
-
+- [GetPlayerInfo](../functions/GetPlayerInfo.md)
+- [GetPlayerItems](../functions/GetPlayerItems.md)

@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Representasi avatar pemain (lokal atau pemain lain) di dunia.
 
+Penjelasan
+- Gunakan `GetLocal()` untuk pemain sendiri, `GetPlayer(netid)` untuk pemain lain, dan `GetPlayerList()` untuk daftar pemain di world.
+
 Bidang
 - `pos: Vec2` — Posisi (pixel).
 - `name: string` — Nama tampilan.
@@ -22,7 +25,6 @@ LogToConsole(('Halo %s di (%d,%d)')
 ```
 
 Terkait
-- `GetLocal()`
-- `GetPlayer(netid)`
-- `GetPlayerList()`
-
+- [GetLocal](../functions/GetLocal.md)
+- [GetPlayer](../functions/GetPlayer.md)
+- [GetPlayerList](../functions/GetPlayerList.md)

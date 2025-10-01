@@ -3,6 +3,9 @@
 Deskripsi singkat
 - Data lengkap item dari database item game.
 
+Penjelasan
+- Berisi properti penting (nama, rarity, growtime, flags). Data bersumber dari database item yang dimuat klien.
+
 Bidang
 - `id: int` — ID item.
 - `name: string` — Nama item.
@@ -25,8 +28,7 @@ LogToConsole(('ID %d, rarity %d'):format(info.id, info.rarity))
 ```
 
 Terkait
-- `GetItemInfo(id_or_name)`
-- `GetItemByIDSafe(id)`
-- `GetItemByName(name)`
-- `GetItemInfoList()`
-
+- [GetItemInfo](../functions/GetItemInfo.md)
+- [GetItemByIDSafe](../functions/GetItemByIDSafe.md)
+- [GetItemByName](../functions/GetItemByName.md)
+- [GetItemInfoList](../functions/GetItemInfoList.md)

@@ -4,6 +4,9 @@ Ringkasan
 - `GetItemsByPartialName(partial: string) -> ItemInfo[]`
 - Pencarian item berdasarkan nama sebagian (case-insensitive).
 
+Penjelasan
+- Berguna untuk fitur pencarian/auto-complete saat Anda tidak tahu nama lengkap item.
+
 Parameter
 - `partial: string` — Potongan nama item.
 
@@ -19,5 +22,4 @@ end
 ```
 
 Terkait
-- `ItemInfo`
-
+- [ItemInfo](../structures/ItemInfo.md)

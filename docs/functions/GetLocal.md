@@ -4,6 +4,9 @@ Ringkasan
 - `GetLocal() -> NetAvatar`
 - Mengambil avatar pemain lokal.
 
+Penjelasan
+- Cara cepat mengetahui posisi/nama Anda sendiri di world.
+
 Nilai kembali
 - `NetAvatar`
 
@@ -13,5 +16,4 @@ LogToConsole('hello ' .. GetLocal().name)
 ```
 
 Terkait
-- `NetAvatar`
-
+- [NetAvatar](../structures/NetAvatar.md)

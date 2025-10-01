@@ -4,6 +4,9 @@ Ringkasan
 - `LoadEncryptedFile(filename: string)`
 - Menjalankan file terenkripsi dari folder script.
 
+Penjelasan
+- Pasangan dari `EncryptFile`. Pastikan nama file benar dan telah terenkripsi.
+
 Parameter
 - `filename: string` — Nama file terenkripsi.
 
@@ -16,6 +19,5 @@ LoadEncryptedFile('script.lua')
 ```
 
 Terkait
-- `EncryptFile(filename[, key])`
-- `LoadEncrypt(encText)`
-
+- [EncryptFile](EncryptFile.md)
+- [LoadEncrypt](LoadEncrypt.md)

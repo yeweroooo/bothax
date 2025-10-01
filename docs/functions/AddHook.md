@@ -1,4 +1,4 @@
-# AddHook
+# AddHook(event: string, label: int|string, callback: function)
 
 Ringkasan
 - `AddHook(event: string, label: int|string, callback: function)`

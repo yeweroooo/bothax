@@ -1,4 +1,4 @@
-# SendPacketRaw
+# SendPacketRaw(to_client: boolean, packet: GameUpdatePacket)
 
 Ringkasan
 - `SendPacketRaw(to_client: boolean, packet: GameUpdatePacket)`

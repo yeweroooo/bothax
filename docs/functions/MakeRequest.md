@@ -1,4 +1,4 @@
-# MakeRequest
+# MakeRequest(url: string[, method: string][, headers: table][, content: string][, timeout_ms: int]) -> HttpResponse
 
 Ringkasan
 - `MakeRequest(url: string[, method: string][, headers: table][, content: string][, timeout_ms: int]) -> HttpResponse`
@@ -6,6 +6,7 @@ Ringkasan
 
 Penjelasan
 - Periksa `status` dan `error` pada hasil untuk memastikan request sukses sebelum memproses `content`.
+- `headers` berupa table key->value (mis. `{ ['Content-Type'] = 'application/json' }`). `content` digunakan untuk body saat metode seperti `POST/PUT`.
 
 Parameter
 - `url: string`

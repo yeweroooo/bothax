@@ -1,4 +1,4 @@
-# GetItemsByPartialName
+# GetItemsByPartialName(partial: string) -> ItemInfo[]
 
 Ringkasan
 - `GetItemsByPartialName(partial: string) -> ItemInfo[]`

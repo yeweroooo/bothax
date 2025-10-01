@@ -1,4 +1,4 @@
-# GetTile
+# GetTile(x: int, y: int) -> Tile
 
 Ringkasan
 - `GetTile(x: int, y: int) -> Tile`

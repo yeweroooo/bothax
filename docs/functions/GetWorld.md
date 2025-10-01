@@ -1,4 +1,4 @@
-# GetWorld
+# GetWorld() -> World
 
 Ringkasan
 - `GetWorld() -> World`

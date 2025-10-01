@@ -1,4 +1,4 @@
-# GetItemInfo
+# GetItemInfo(item: int|string) -> ItemInfo
 
 Ringkasan
 - `GetItemInfo(item: int|string) -> ItemInfo`

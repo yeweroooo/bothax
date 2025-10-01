@@ -1,4 +1,4 @@
-# GameUpdatePacket
+# GameUpdatePacket (struct paket raw)
 
 Deskripsi singkat
 - Struktur paket mentah yang digunakan untuk event/pengiriman paket level rendah.

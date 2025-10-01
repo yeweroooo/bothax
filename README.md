@@ -59,6 +59,7 @@ Win + R dan ketik
 - [EncryptFile](docs/functions/EncryptFile.md)
 - [LoadEncrypt](docs/functions/LoadEncrypt.md)
 - [LoadEncryptedFile](docs/functions/LoadEncryptedFile.md)
+- [LogToConsole](docs/functions/LogToConsole.md)
 - [FindPath](docs/functions/FindPath.md)
 - [GetCamera](docs/functions/GetCamera.md)
 - [GetClient](docs/functions/GetClient.md)
@@ -118,4 +119,3 @@ Win + R dan ketik
 - [Scan World (WL tile & drop)](examples/03_world_scan.lua)
 - [HTTP & Hash](examples/04_http_and_hash.lua)
 - [Encrypt & Jalankan](examples/05_encrypt.lua)
-

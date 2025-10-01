@@ -1,4 +1,4 @@
-# GetCamera
+# GetCamera() -> WorldCamera
 
 Ringkasan
 - `GetCamera() -> WorldCamera`

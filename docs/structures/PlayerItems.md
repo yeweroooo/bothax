@@ -1,4 +1,4 @@
-# PlayerItems
+# PlayerItems (gems:int, backpack:table)
 
 Deskripsi singkat
 - Data item terkait pemain: jumlah gems dan konfigurasi backpack.

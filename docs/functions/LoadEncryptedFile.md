@@ -1,4 +1,4 @@
-# LoadEncryptedFile
+# LoadEncryptedFile(filename: string)
 
 Ringkasan
 - `LoadEncryptedFile(filename: string)`

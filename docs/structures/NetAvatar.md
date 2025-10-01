@@ -1,4 +1,4 @@
-# NetAvatar
+# NetAvatar (name:string, netid:int, pos:Vec2, userid:int, country:string, invisible:boolean)
 
 Deskripsi singkat
 - Representasi avatar pemain (lokal atau pemain lain) di dunia.

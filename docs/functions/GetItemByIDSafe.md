@@ -1,4 +1,4 @@
-# GetItemByIDSafe
+# GetItemByIDSafe(itemid: int) -> ItemInfo
 
 Ringkasan
 - `GetItemByIDSafe(itemid: int) -> ItemInfo`

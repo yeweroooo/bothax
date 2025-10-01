@@ -1,4 +1,4 @@
-# Encrypt
+# Encrypt(text: string[, key: int]) -> string
 
 Ringkasan
 - `Encrypt(text: string[, key: int]) -> string`

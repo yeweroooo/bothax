@@ -1,4 +1,4 @@
-# ENetClient
+# ENetClient (address:string, port:int, ping:int)
 
 Deskripsi singkat
 - Informasi koneksi ENet ke server (alamat, port, ping).

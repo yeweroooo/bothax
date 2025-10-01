@@ -1,4 +1,4 @@
-# HttpResponse
+# HttpResponse (status:int, error:boolean, method:string, content:string)
 
 Deskripsi singkat
 - Hasil permintaan HTTP dari `MakeRequest`.

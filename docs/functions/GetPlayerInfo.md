@@ -1,4 +1,4 @@
-# GetPlayerInfo
+# GetPlayerInfo() -> PlayerItems
 
 Ringkasan
 - `GetPlayerInfo() -> PlayerItems`

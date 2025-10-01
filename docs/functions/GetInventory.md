@@ -1,4 +1,4 @@
-# GetInventory
+# GetInventory() -> Inventory[]
 
 Ringkasan
 - `GetInventory() -> Inventory[]`

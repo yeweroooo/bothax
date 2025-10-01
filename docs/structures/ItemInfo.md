@@ -1,4 +1,4 @@
-# ItemInfo
+# ItemInfo (id:int, name:string, rarity:int, type:int, flags:int)
 
 Deskripsi singkat
 - Data lengkap item dari database item game.

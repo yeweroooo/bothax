@@ -1,4 +1,4 @@
-# CheckPath
+# CheckPath(tilex: int, tiley: int) -> boolean
 
 Ringkasan
 - `CheckPath(tilex: int, tiley: int) -> boolean`

@@ -1,4 +1,4 @@
-# GetNPCList
+# GetNPCList() -> ClientNPC[]
 
 Ringkasan
 - `GetNPCList() -> ClientNPC[]`

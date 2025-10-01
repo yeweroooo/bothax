@@ -1,4 +1,4 @@
-# Tile
+# Tile (fg:int, bg:int, flags:TileFlags, extra:TileExtra|nil, x:int, y:int)
 
 Deskripsi singkat
 - Informasi tile (blok) di dunia.

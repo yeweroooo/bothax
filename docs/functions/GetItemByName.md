@@ -1,4 +1,4 @@
-# GetItemByName
+# GetItemByName(name: string) -> ItemInfo
 
 Ringkasan
 - `GetItemByName(name: string) -> ItemInfo`

@@ -1,4 +1,4 @@
-# GetNPC
+# GetNPC(id: int) -> ClientNPC | nil
 
 Ringkasan
 - `GetNPC(id: int) -> ClientNPC | nil`

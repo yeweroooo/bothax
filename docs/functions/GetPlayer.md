@@ -1,4 +1,4 @@
-# GetPlayer
+# GetPlayer(netid: int) -> NetAvatar | nil
 
 Ringkasan
 - `GetPlayer(netid: int) -> NetAvatar | nil`

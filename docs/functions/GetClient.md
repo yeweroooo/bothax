@@ -1,4 +1,4 @@
-# GetClient
+# GetClient() -> ENetClient
 
 Ringkasan
 - `GetClient() -> ENetClient`

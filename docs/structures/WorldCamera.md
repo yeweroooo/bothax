@@ -1,4 +1,4 @@
-# WorldCamera
+# WorldCamera (pos:Vec2, center:Vec2, scale:float, resolution:Vec2)
 
 Deskripsi singkat
 - Informasi kamera dunia di klien.

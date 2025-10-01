@@ -1,8 +1,11 @@
-# RunThread
+# RunThread(callback: function, ...)
 
 Ringkasan
 - `RunThread(callback: function, ...)`
 - Menjalankan fungsi secara asynchronous (thread terpisah), tidak memblokir thread utama.
+
+Penjelasan
+- Hindari operasi UI langsung di thread terpisah. Gunakan untuk tugas I/O, perhitungan, atau loop yang lama.
 
 Parameter
 - `callback: function` — Fungsi yang dieksekusi di thread baru.
@@ -19,4 +22,3 @@ RunThread(function(id)
   LogToConsole('Finished Thread For ID : ' .. id)
 end, 1)
 ```
-

@@ -1,4 +1,4 @@
-# LoadEncrypt
+# LoadEncrypt(encryptedText: string)
 
 Ringkasan
 - `LoadEncrypt(encryptedText: string)`

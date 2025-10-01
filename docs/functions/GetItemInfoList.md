@@ -1,4 +1,4 @@
-# GetItemInfoList
+# GetItemInfoList() -> ItemInfo[]
 
 Ringkasan
 - `GetItemInfoList() -> ItemInfo[]`

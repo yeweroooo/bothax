@@ -1,4 +1,4 @@
-# World
+# World (name:string, width:int, height:int)
 
 Deskripsi singkat
 - Informasi dunia yang sedang dimuat.

@@ -1,4 +1,4 @@
-# WorldObject
+# WorldObject (id:int, pos:Vec2, amount:int, oid:int)
 
 Deskripsi singkat
 - Objek terjatuh/tersebar di dunia (drop, dll.).

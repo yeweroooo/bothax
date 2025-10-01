@@ -1,4 +1,4 @@
-# Vec2
+# Vec2 (x:float, y:float)
 
 Deskripsi singkat
 - Vektor 2D sederhana.

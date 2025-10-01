@@ -1,4 +1,4 @@
-# GetPlayerList
+# GetPlayerList() -> NetAvatar[]
 
 Ringkasan
 - `GetPlayerList() -> NetAvatar[]`

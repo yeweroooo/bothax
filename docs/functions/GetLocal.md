@@ -1,4 +1,4 @@
-# GetLocal
+# GetLocal() -> NetAvatar
 
 Ringkasan
 - `GetLocal() -> NetAvatar`

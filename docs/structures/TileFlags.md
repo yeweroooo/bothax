@@ -1,4 +1,4 @@
-# TileFlags
+# TileFlags (value:int, locked:boolean, public:boolean, water:boolean, ...)
 
 Deskripsi singkat
 - Flag/penanda kondisi khusus pada tile.

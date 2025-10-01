@@ -1,4 +1,4 @@
-# GetObjectList
+# GetObjectList() -> WorldObject[]
 
 Ringkasan
 - `GetObjectList() -> WorldObject[]`

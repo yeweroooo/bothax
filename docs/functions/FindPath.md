@@ -1,4 +1,4 @@
-# FindPath
+# FindPath(tilex: int, tiley: int)
 
 Ringkasan
 - `FindPath(tilex: int, tiley: int)`

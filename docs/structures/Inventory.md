@@ -1,4 +1,4 @@
-# Inventory
+# Inventory (id:int, amount:int, flags:int)
 
 Deskripsi singkat
 - Entri item di inventaris pemain.

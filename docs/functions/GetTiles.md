@@ -1,4 +1,4 @@
-# GetTiles
+# GetTiles() -> Tile[]
 
 Ringkasan
 - `GetTiles() -> Tile[]`

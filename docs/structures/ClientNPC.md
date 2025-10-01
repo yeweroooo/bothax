@@ -1,4 +1,4 @@
-# ClientNPC
+# ClientNPC (id:int, type:int, pos:Vec2, target:Vec2)
 
 Deskripsi singkat
 - Representasi NPC (Non-Player Character) yang terlihat di sisi klien.

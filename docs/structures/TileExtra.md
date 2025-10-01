@@ -1,4 +1,4 @@
-# TileExtra
+# TileExtra (type:int, label:string, owner:int, color:uint, ...)
 
 Deskripsi singkat
 - Data tambahan sebuah tile (label, owner, warna, progres, dsb.).

@@ -1,4 +1,4 @@
-# SetTileFlags
+# SetTileFlags(tileX: int, tileY: int, flags: int | TileFlags)
 
 Ringkasan
 - `SetTileFlags(tileX: int, tileY: int, flags: int | TileFlags)`

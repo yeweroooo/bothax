@@ -1,0 +1,36 @@
+# TileFlags
+
+Deskripsi singkat
+- Flag/penanda kondisi khusus pada tile.
+
+Bidang
+- `value: int` — Nilai bitmask keseluruhan.
+- `locked: boolean`
+- `spliced: boolean`
+- `dropseed: boolean`
+- `tree: boolean`
+- `flipped: boolean`
+- `enabled: boolean`
+- `public: boolean`
+- `silenced: boolean`
+- `water: boolean`
+- `glue: boolean`
+- `burn: boolean`
+- `red: boolean`
+- `green: boolean`
+- `blue: boolean`
+
+Contoh penggunaan (Lua)
+```lua
+SetTileFlags(10, 5, 16384)
+SetTileFlags(15, 8, {
+  locked = true,
+  public = true,
+  water = true
+})
+```
+
+Terkait
+- `SetTileFlags(x, y, flags)`
+- `Tile`
+

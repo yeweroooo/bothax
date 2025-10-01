@@ -1,0 +1,32 @@
+# TileExtra
+
+Deskripsi singkat
+- Data tambahan sebuah tile (label, owner, warna, progres, dsb.).
+
+Bidang
+- `type: int`
+- `progress: float`
+- `label: string`
+- `label2: string`
+- `label3: string`
+- `owner: int`
+- `flags: int`
+- `admin: int[]`
+- `lastupdate: int`
+- `alttype: int`
+- `growth: int`
+- `fruitcount: int`
+- `volume: int`
+- `color: uint`
+
+Contoh penggunaan (Lua)
+```lua
+local t = GetTile(10, 10)
+if t.extra and t.extra.owner then
+  LogToConsole(('Tile dimiliki UID: %d'):format(t.extra.owner))
+end
+```
+
+Terkait
+- `Tile`
+
